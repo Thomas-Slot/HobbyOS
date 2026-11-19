@@ -27,7 +27,7 @@ Linux Arch (tested on Fish, bash not tested yet.) build instructions:
         -Wextra \
         -ffreestanding \
         -fno-stack-protector \
-        -fno-pic \
+        -no-pic \
         -fno-pie \
         -fno-unwind-tables \
         -fno-asynchronous-unwind-tables \
